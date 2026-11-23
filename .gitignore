@@ -1,0 +1,24 @@
+# environments and dependencies
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+
+# regenerable caches and logs
+data/vec_cache/
+results/bench.log
+install_torch.log
+
+# scratch output from rendering helpers
+tools/render/
+tools/render_deck/
+deck/_r/
+deck/_prev.pdf
+
+# internal rehearsal material, not part of the project
+script/
+PRESENTATION_SCRIPT.md
+
+# local tooling
+.claude/
+*.log

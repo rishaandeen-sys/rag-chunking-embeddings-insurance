@@ -1,0 +1,528 @@
+[
+ {
+  "id": "D01",
+  "question": "How long must I wait before a pre-existing disease is covered?",
+  "evidence": [
+   "expiry of 36 months"
+  ],
+  "dropped_evidence": [],
+  "match": "any",
+  "type": "real-world",
+  "found": {
+   "bge_small/hybrid_rrf": 1,
+   "bge_small/dense": 1,
+   "bge_small/sparse": 2,
+   "bge_base/hybrid_rrf": 1,
+   "bge_base/dense": 1
+  }
+ },
+ {
+  "id": "D02",
+  "question": "What does exclusion code Excl02 cover?",
+  "evidence": [
+   "Excl02"
+  ],
+  "dropped_evidence": [],
+  "match": "any",
+  "type": "real-world",
+  "found": {
+   "bge_small/hybrid_rrf": 3,
+   "bge_small/dense": null,
+   "bge_small/sparse": 5,
+   "bge_base/hybrid_rrf": 1,
+   "bge_base/dense": 4
+  }
+ },
+ {
+  "id": "D03",
+  "question": "What daily amount is paid for shared accommodation?",
+  "evidence": [
+   "Rs.1,000/- per day"
+  ],
+  "dropped_evidence": [],
+  "match": "any",
+  "type": "real-world",
+  "found": {
+   "bge_small/hybrid_rrf": 2,
+   "bge_small/dense": 2,
+   "bge_small/sparse": 2,
+   "bge_base/hybrid_rrf": 3,
+   "bge_base/dense": 2
+  }
+ },
+ {
+  "id": "D04",
+  "question": "My wife is expecting. Is maternity covered, and is there a waiting period?",
+  "evidence": [
+   "waiting period of 24 months from the date of first commencement",
+   "traceable to childbirth"
+  ],
+  "dropped_evidence": [],
+  "match": "any",
+  "type": "real-world",
+  "found": {
+   "bge_small/hybrid_rrf": 1,
+   "bge_small/dense": 2,
+   "bge_small/sparse": 1,
+   "bge_base/hybrid_rrf": 1,
+   "bge_base/dense": 1
+  }
+ },
+ {
+  "id": "D05",
+  "question": "Will the policy pay for IVF or fertility treatment?",
+  "evidence": [
+   "Excl17",
+   "Assisted Reproduction Treatment"
+  ],
+  "dropped_evidence": [],
+  "match": "any",
+  "type": "real-world",
+  "found": {
+   "bge_small/hybrid_rrf": 1,
+   "bge_small/dense": 1,
+   "bge_small/sparse": 1,
+   "bge_base/hybrid_rrf": 1,
+   "bge_base/dense": 1
+  }
+ },
+ {
+  "id": "D06",
+  "question": "Is an ambulance covered if I am shifted from one hospital to another?",
+  "evidence": [
+   "from one hospital to another hospital"
+  ],
+  "dropped_evidence": [],
+  "match": "any",
+  "type": "real-world",
+  "found": {
+   "bge_small/hybrid_rrf": 1,
+   "bge_small/dense": 1,
+   "bge_small/sparse": 1,
+   "bge_base/hybrid_rrf": 1,
+   "bge_base/dense": 1
+  }
+ },
+ {
+  "id": "D07",
+  "question": "Does the policy cover air ambulance, and up to how much?",
+  "evidence": [
+   "air ambulance service up to 10% of sum insured",
+   "Emergency Air Ambulance"
+  ],
+  "dropped_evidence": [],
+  "match": "any",
+  "type": "real-world",
+  "found": {
+   "bge_small/hybrid_rrf": 2,
+   "bge_small/dense": 1,
+   "bge_small/sparse": 1,
+   "bge_base/hybrid_rrf": 2,
+   "bge_base/dense": 1
+  }
+ },
+ {
+  "id": "D08",
+  "question": "What is the grace period if I forget to renew my policy on time?",
+  "evidence": [
+   "Grace period of 30 days for renewing the policy"
+  ],
+  "dropped_evidence": [],
+  "match": "any",
+  "type": "real-world",
+  "found": {
+   "bge_small/hybrid_rrf": null,
+   "bge_small/dense": null,
+   "bge_small/sparse": null,
+   "bge_base/hybrid_rrf": null,
+   "bge_base/dense": null
+  }
+ },
+ {
+  "id": "D09",
+  "question": "Will my claim be cut if I take a room more expensive than my limit?",
+  "evidence": [
+   "Proportionate deduction on Room Rent"
+  ],
+  "dropped_evidence": [],
+  "match": "any",
+  "type": "real-world",
+  "found": {
+   "bge_small/hybrid_rrf": 1,
+   "bge_small/dense": 1,
+   "bge_small/sparse": 2,
+   "bge_base/hybrid_rrf": 5,
+   "bge_base/dense": 2
+  }
+ },
+ {
+  "id": "D10",
+  "question": "Is dental treatment covered?",
+  "evidence": [
+   "Dental Treatment, necessitated due to disease or Injury",
+   "cosmetic dental surgeries"
+  ],
+  "dropped_evidence": [],
+  "match": "any",
+  "type": "real-world",
+  "found": {
+   "bge_small/hybrid_rrf": 4,
+   "bge_small/dense": 3,
+   "bge_small/sparse": 4,
+   "bge_base/hybrid_rrf": 3,
+   "bge_base/dense": 3
+  }
+ },
+ {
+  "id": "D11",
+  "question": "Am I covered if I get injured doing adventure sports?",
+  "evidence": [
+   "Hazardous sports, war, terrorism",
+   "participation as a professional in Hazardous"
+  ],
+  "dropped_evidence": [],
+  "match": "any",
+  "type": "real-world",
+  "found": {
+   "bge_small/hybrid_rrf": 1,
+   "bge_small/dense": 1,
+   "bge_small/sparse": 1,
+   "bge_base/hybrid_rrf": 1,
+   "bge_base/dense": 2
+  }
+ },
+ {
+  "id": "D12",
+  "question": "Does the policy pay for cosmetic or plastic surgery?",
+  "evidence": [
+   "unless for reconstruction following an Accident",
+   "cosmetic surgery & plastic surgery"
+  ],
+  "dropped_evidence": [],
+  "match": "any",
+  "type": "real-world",
+  "found": {
+   "bge_small/hybrid_rrf": 1,
+   "bge_small/dense": 1,
+   "bge_small/sparse": 1,
+   "bge_base/hybrid_rrf": 1,
+   "bge_base/dense": 1
+  }
+ },
+ {
+  "id": "D13",
+  "question": "Am I covered if I need treatment abroad?",
+  "evidence": [
+   "Treatment outside India",
+   "medical treatment overseas"
+  ],
+  "dropped_evidence": [],
+  "match": "any",
+  "type": "real-world",
+  "found": {
+   "bge_small/hybrid_rrf": null,
+   "bge_small/dense": null,
+   "bge_small/sparse": null,
+   "bge_base/hybrid_rrf": null,
+   "bge_base/dense": null
+  }
+ },
+ {
+  "id": "D14",
+  "question": "Are my tests and medicines before hospital admission covered?",
+  "evidence": [
+   "incurred upto 60 days",
+   "up to 60 days prior to hospitalization"
+  ],
+  "dropped_evidence": [],
+  "match": "any",
+  "type": "real-world",
+  "found": {
+   "bge_small/hybrid_rrf": null,
+   "bge_small/dense": null,
+   "bge_small/sparse": null,
+   "bge_base/hybrid_rrf": null,
+   "bge_base/dense": null
+  }
+ },
+ {
+  "id": "D15",
+  "question": "How long after I leave hospital are my follow-up expenses covered?",
+  "evidence": [
+   "incurred upto 180 days",
+   "up to 180 days after discharge from the hospital"
+  ],
+  "dropped_evidence": [],
+  "match": "any",
+  "type": "real-world",
+  "found": {
+   "bge_small/hybrid_rrf": 4,
+   "bge_small/dense": null,
+   "bge_small/sparse": 3,
+   "bge_base/hybrid_rrf": 3,
+   "bge_base/dense": 1
+  }
+ },
+ {
+  "id": "D16",
+  "question": "Can I get treated at home instead of going to a hospital?",
+  "evidence": [
+   "Home care treatment - Payable up to 10% of the sum insured",
+   "given treatment at Home"
+  ],
+  "dropped_evidence": [],
+  "match": "any",
+  "type": "real-world",
+  "found": {
+   "bge_small/hybrid_rrf": null,
+   "bge_small/dense": null,
+   "bge_small/sparse": null,
+   "bge_base/hybrid_rrf": null,
+   "bge_base/dense": null
+  }
+ },
+ {
+  "id": "D17",
+  "question": "Do I get any bonus for not making a claim?",
+  "evidence": [
+   "25% of the Sum Insured for each claim free year",
+   "50% of the Base Sum"
+  ],
+  "dropped_evidence": [],
+  "match": "any",
+  "type": "real-world",
+  "found": {
+   "bge_small/hybrid_rrf": 2,
+   "bge_small/dense": null,
+   "bge_small/sparse": null,
+   "bge_base/hybrid_rrf": 1,
+   "bge_base/dense": 2
+  }
+ },
+ {
+  "id": "D18",
+  "question": "Do I have to pay a share of every claim myself?",
+  "evidence": [
+   "10% of each and every claim amount"
+  ],
+  "dropped_evidence": [],
+  "match": "any",
+  "type": "real-world",
+  "found": {
+   "bge_small/hybrid_rrf": 2,
+   "bge_small/dense": null,
+   "bge_small/sparse": 1,
+   "bge_base/hybrid_rrf": 1,
+   "bge_base/dense": 1
+  }
+ },
+ {
+  "id": "D19",
+  "question": "What happens if I use up my whole sum insured in one year?",
+  "evidence": [
+   "restoration of sum insured for unlimited number of",
+   "Automatic Restore Benefit"
+  ],
+  "dropped_evidence": [],
+  "match": "any",
+  "type": "real-world",
+  "found": {
+   "bge_small/hybrid_rrf": 3,
+   "bge_small/dense": 4,
+   "bge_small/sparse": null,
+   "bge_base/hybrid_rrf": null,
+   "bge_base/dense": 4
+  }
+ },
+ {
+  "id": "D20",
+  "question": "Does the policy cover Ayurvedic or homeopathic treatment?",
+  "evidence": [
+   "AYUSH Hospital is payable up to the sum insured",
+   "AYUSH Treatment refers to the medical"
+  ],
+  "dropped_evidence": [],
+  "match": "any",
+  "type": "real-world",
+  "found": {
+   "bge_small/hybrid_rrf": null,
+   "bge_small/dense": 2,
+   "bge_small/sparse": null,
+   "bge_base/hybrid_rrf": null,
+   "bge_base/dense": 2
+  }
+ },
+ {
+  "id": "D21",
+  "question": "Can I get a second doctor's opinion on my diagnosis?",
+  "evidence": [
+   "Second Medical Opinion from a Doctor",
+   "E Opinion for Critical Illness"
+  ],
+  "dropped_evidence": [],
+  "match": "any",
+  "type": "real-world",
+  "found": {
+   "bge_small/hybrid_rrf": 1,
+   "bge_small/dense": 2,
+   "bge_small/sparse": 1,
+   "bge_base/hybrid_rrf": 1,
+   "bge_base/dense": 2
+  }
+ },
+ {
+  "id": "D22",
+  "question": "Will the policy pay for weight loss surgery?",
+  "evidence": [
+   "Obesity/Weight control",
+   "surgical treatment of obesity"
+  ],
+  "dropped_evidence": [],
+  "match": "any",
+  "type": "real-world",
+  "found": {
+   "bge_small/hybrid_rrf": 1,
+   "bge_small/dense": 1,
+   "bge_small/sparse": 3,
+   "bge_base/hybrid_rrf": 2,
+   "bge_base/dense": 2
+  }
+ },
+ {
+  "id": "D23",
+  "question": "Are injuries caused by alcohol or substance abuse covered?",
+  "evidence": [
+   "Substance abuse, self-inflicted injuries"
+  ],
+  "dropped_evidence": [],
+  "match": "any",
+  "type": "real-world",
+  "found": {
+   "bge_small/hybrid_rrf": 1,
+   "bge_small/dense": 5,
+   "bge_small/sparse": 2,
+   "bge_base/hybrid_rrf": 2,
+   "bge_base/dense": 2
+  }
+ },
+ {
+  "id": "D24",
+  "question": "Can I keep renewing this policy for life?",
+  "evidence": [
+   "Lifelong Renewal"
+  ],
+  "dropped_evidence": [],
+  "match": "any",
+  "type": "real-world",
+  "found": {
+   "bge_small/hybrid_rrf": null,
+   "bge_small/dense": null,
+   "bge_small/sparse": null,
+   "bge_base/hybrid_rrf": 2,
+   "bge_base/dense": null
+  }
+ },
+ {
+  "id": "D25",
+  "question": "Is my newborn baby covered from the day of birth?",
+  "evidence": [
+   "payable from Day 1 of its birth"
+  ],
+  "dropped_evidence": [],
+  "match": "any",
+  "type": "real-world",
+  "found": {
+   "bge_small/hybrid_rrf": 2,
+   "bge_small/dense": 4,
+   "bge_small/sparse": 3,
+   "bge_base/hybrid_rrf": 2,
+   "bge_base/dense": 3
+  }
+ },
+ {
+  "id": "D26",
+  "question": "Will the policy pay for an organ transplant donor's expenses?",
+  "evidence": [
+   "organ transplantation from the Donor to the Recipient"
+  ],
+  "dropped_evidence": [],
+  "match": "any",
+  "type": "real-world",
+  "found": {
+   "bge_small/hybrid_rrf": 1,
+   "bge_small/dense": 1,
+   "bge_small/sparse": 2,
+   "bge_base/hybrid_rrf": 1,
+   "bge_base/dense": 1
+  }
+ },
+ {
+  "id": "D27",
+  "question": "Is a health check-up covered even if I have not made a claim?",
+  "evidence": [
+   "irrespective of claim"
+  ],
+  "dropped_evidence": [],
+  "match": "any",
+  "type": "real-world",
+  "found": {
+   "bge_small/hybrid_rrf": 4,
+   "bge_small/dense": 1,
+   "bge_small/sparse": 5,
+   "bge_base/hybrid_rrf": 3,
+   "bge_base/dense": 4
+  }
+ },
+ {
+  "id": "D28",
+  "question": "How soon after buying the policy can I make a claim for an illness?",
+  "evidence": [
+   "within 30 days from the first Policy commencement"
+  ],
+  "dropped_evidence": [],
+  "match": "any",
+  "type": "real-world",
+  "found": {
+   "bge_small/hybrid_rrf": 3,
+   "bge_small/dense": 5,
+   "bge_small/sparse": null,
+   "bge_base/hybrid_rrf": 5,
+   "bge_base/dense": null
+  }
+ },
+ {
+  "id": "D29",
+  "question": "Does the policy cover treatment that does not need an overnight stay?",
+  "evidence": [
+   "All Day Care Procedures are covered",
+   "All Day Care Treatments"
+  ],
+  "dropped_evidence": [],
+  "match": "any",
+  "type": "real-world",
+  "found": {
+   "bge_small/hybrid_rrf": null,
+   "bge_small/dense": 4,
+   "bge_small/sparse": null,
+   "bge_base/hybrid_rrf": null,
+   "bge_base/dense": 1
+  }
+ },
+ {
+  "id": "D30",
+  "question": "Does the policy pay for treatment of HIV?",
+  "evidence": [
+   "HIV due to blood transfusion"
+  ],
+  "dropped_evidence": [],
+  "match": "any",
+  "type": "real-world",
+  "found": {
+   "bge_small/hybrid_rrf": null,
+   "bge_small/dense": null,
+   "bge_small/sparse": null,
+   "bge_base/hybrid_rrf": null,
+   "bge_base/dense": null
+  }
+ }
+]

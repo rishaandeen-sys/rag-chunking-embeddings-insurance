@@ -1,0 +1,418 @@
+{
+  "corpus": {
+    "documents": [
+      {
+        "doc_id": "hdfc_optima_secure",
+        "source_pdf": "hdfc_optima_secure.pdf",
+        "chars": 138095,
+        "words": 21477,
+        "sections_detected": 38,
+        "text_file": "corpus\\text\\hdfc_optima_secure.txt"
+      },
+      {
+        "doc_id": "star_assure",
+        "source_pdf": "star_assure.pdf",
+        "chars": 132240,
+        "words": 20946,
+        "sections_detected": 191,
+        "text_file": "corpus\\text\\star_assure.txt"
+      }
+    ],
+    "total_words": 42423,
+    "total_chars": 270335
+  },
+  "goldset": {
+    "n": 50,
+    "by_type": {
+      "semantic": 27,
+      "exact-match": 20,
+      "multi-hop": 3
+    },
+    "by_doc": {
+      "hdfc_optima_secure": 28,
+      "star_assure": 22
+    }
+  },
+  "chunk_stats": [
+    {
+      "mean_relevant_chunks_per_q": 2.22,
+      "strategy": "fixed",
+      "n_chunks": 605,
+      "mean_chunk_chars": 510.33,
+      "median_chunk_chars": 512.0,
+      "mean_retrieval_unit_chars": 510.33,
+      "chunking_time_s": 0.0
+    },
+    {
+      "mean_relevant_chunks_per_q": 2.22,
+      "strategy": "recursive",
+      "n_chunks": 631,
+      "mean_chunk_chars": 491.22,
+      "median_chunk_chars": 537.0,
+      "mean_retrieval_unit_chars": 491.22,
+      "chunking_time_s": 0.01
+    },
+    {
+      "mean_relevant_chunks_per_q": 1.86,
+      "strategy": "semantic",
+      "n_chunks": 291,
+      "mean_chunk_chars": 926.19,
+      "median_chunk_chars": 862.0,
+      "mean_retrieval_unit_chars": 926.19,
+      "chunking_time_s": 0.05
+    },
+    {
+      "mean_relevant_chunks_per_q": 1.8,
+      "strategy": "parent_child",
+      "n_chunks": 1124,
+      "mean_chunk_chars": 1707.36,
+      "median_chunk_chars": 2254.0,
+      "mean_retrieval_unit_chars": 293.49,
+      "chunking_time_s": 0.01
+    }
+  ],
+  "n_configs": 64,
+  "best": {
+    "strategy": "parent_child",
+    "embedder": "bge_small",
+    "mode": "hybrid_rerank",
+    "ndcg": 0.747,
+    "recall": 0.88,
+    "mrr": 0.752,
+    "hit1": 0.66,
+    "index_mb": 1.65,
+    "latency_ms": 486.9
+  },
+  "best_dense_only": {
+    "strategy": "parent_child",
+    "embedder": "arctic_mrl_256",
+    "ndcg": 0.682,
+    "recall": 0.82
+  },
+  "by_strategy": {
+    "fixed": {
+      "recall@k": 0.764,
+      "mrr": 0.591,
+      "ndcg@k": 0.542,
+      "hit@1": 0.48,
+      "coverage@k": 0.619,
+      "mean_latency_ms": 161.025
+    },
+    "parent_child": {
+      "recall@k": 0.819,
+      "mrr": 0.685,
+      "ndcg@k": 0.673,
+      "hit@1": 0.596,
+      "coverage@k": 0.756,
+      "mean_latency_ms": 163.859
+    },
+    "recursive": {
+      "recall@k": 0.807,
+      "mrr": 0.657,
+      "ndcg@k": 0.596,
+      "hit@1": 0.553,
+      "coverage@k": 0.658,
+      "mean_latency_ms": 181.679
+    },
+    "semantic": {
+      "recall@k": 0.788,
+      "mrr": 0.661,
+      "ndcg@k": 0.589,
+      "hit@1": 0.572,
+      "coverage@k": 0.644,
+      "mean_latency_ms": 476.309
+    }
+  },
+  "by_embedder": {
+    "arctic_mrl_256": {
+      "recall@k": 0.805,
+      "mrr": 0.668,
+      "ndcg@k": 0.619,
+      "index_mb": 0.647,
+      "mean_latency_ms": 263.617
+    },
+    "bge_base": {
+      "recall@k": 0.812,
+      "mrr": 0.662,
+      "ndcg@k": 0.616,
+      "index_mb": 1.942,
+      "mean_latency_ms": 257.771
+    },
+    "bge_base_256": {
+      "recall@k": 0.795,
+      "mrr": 0.65,
+      "ndcg@k": 0.603,
+      "index_mb": 0.647,
+      "mean_latency_ms": 255.533
+    },
+    "bge_small": {
+      "recall@k": 0.787,
+      "mrr": 0.638,
+      "ndcg@k": 0.597,
+      "index_mb": 0.971,
+      "mean_latency_ms": 236.45
+    },
+    "minilm": {
+      "recall@k": 0.773,
+      "mrr": 0.622,
+      "ndcg@k": 0.565,
+      "index_mb": 0.971,
+      "mean_latency_ms": 215.218
+    }
+  },
+  "by_mode": {
+    "dense": {
+      "recall@k": 0.752,
+      "mrr": 0.608,
+      "ndcg@k": 0.549,
+      "coverage@k": 0.613,
+      "mean_latency_ms": 23.767
+    },
+    "hybrid_rerank": {
+      "recall@k": 0.852,
+      "mrr": 0.708,
+      "ndcg@k": 0.673,
+      "coverage@k": 0.748,
+      "mean_latency_ms": 687.795
+    },
+    "hybrid_rrf": {
+      "recall@k": 0.779,
+      "mrr": 0.628,
+      "ndcg@k": 0.578,
+      "coverage@k": 0.646,
+      "mean_latency_ms": 25.591
+    },
+    "sparse": {
+      "recall@k": 0.735,
+      "mrr": 0.56,
+      "ndcg@k": 0.523,
+      "coverage@k": 0.609,
+      "mean_latency_ms": 0.669
+    }
+  },
+  "sparse_baseline": {
+    "ndcg": 0.523,
+    "recall": 0.735,
+    "mrr": 0.56,
+    "latency_ms": 0.7,
+    "by_strategy": {
+      "fixed": 0.451,
+      "recursive": 0.476,
+      "semantic": 0.562,
+      "parent_child": 0.602
+    }
+  },
+  "by_qtype_mode": [
+    {
+      "qtype": "exact-match",
+      "mode": "dense",
+      "recall@k": 0.838,
+      "mrr": 0.687,
+      "ndcg@k": 0.598
+    },
+    {
+      "qtype": "exact-match",
+      "mode": "hybrid_rerank",
+      "recall@k": 0.96,
+      "mrr": 0.795,
+      "ndcg@k": 0.763
+    },
+    {
+      "qtype": "exact-match",
+      "mode": "hybrid_rrf",
+      "recall@k": 0.918,
+      "mrr": 0.751,
+      "ndcg@k": 0.697
+    },
+    {
+      "qtype": "exact-match",
+      "mode": "sparse",
+      "recall@k": 0.975,
+      "mrr": 0.771,
+      "ndcg@k": 0.722
+    },
+    {
+      "qtype": "multi-hop",
+      "mode": "dense",
+      "recall@k": 0.767,
+      "mrr": 0.661,
+      "ndcg@k": 0.58
+    },
+    {
+      "qtype": "multi-hop",
+      "mode": "hybrid_rerank",
+      "recall@k": 0.833,
+      "mrr": 0.75,
+      "ndcg@k": 0.681
+    },
+    {
+      "qtype": "multi-hop",
+      "mode": "hybrid_rrf",
+      "recall@k": 0.9,
+      "mrr": 0.786,
+      "ndcg@k": 0.692
+    },
+    {
+      "qtype": "multi-hop",
+      "mode": "sparse",
+      "recall@k": 0.917,
+      "mrr": 0.688,
+      "ndcg@k": 0.615
+    },
+    {
+      "qtype": "semantic",
+      "mode": "dense",
+      "recall@k": 0.687,
+      "mrr": 0.543,
+      "ndcg@k": 0.508
+    },
+    {
+      "qtype": "semantic",
+      "mode": "hybrid_rerank",
+      "recall@k": 0.774,
+      "mrr": 0.64,
+      "ndcg@k": 0.606
+    },
+    {
+      "qtype": "semantic",
+      "mode": "hybrid_rrf",
+      "recall@k": 0.663,
+      "mrr": 0.52,
+      "ndcg@k": 0.477
+    },
+    {
+      "qtype": "semantic",
+      "mode": "sparse",
+      "recall@k": 0.537,
+      "mrr": 0.39,
+      "ndcg@k": 0.365
+    }
+  ],
+  "mrl": {
+    "bge_base_768": {
+      "ndcg": 0.595,
+      "recall": 0.795,
+      "index_mb": 1.94,
+      "dim": 768
+    },
+    "bge_base_256_naive": {
+      "ndcg": 0.588,
+      "recall": 0.785,
+      "index_mb": 0.65,
+      "dim": 256
+    },
+    "arctic_256_true_mrl": {
+      "ndcg": 0.59,
+      "recall": 0.785,
+      "index_mb": 0.65,
+      "dim": 256
+    },
+    "naive_retention_pct": 98.8,
+    "storage_saving_pct": 66.5,
+    "true_mrl_vs_bge768_pct": 99.2
+  },
+  "decision_matrix": {
+    "fixed": {
+      "arctic_mrl_256": 0.529,
+      "bge_base": 0.499,
+      "bge_base_256": 0.491,
+      "bge_small": 0.49,
+      "minilm": 0.503
+    },
+    "parent_child": {
+      "arctic_mrl_256": 0.625,
+      "bge_base": 0.659,
+      "bge_base_256": 0.642,
+      "bge_small": 0.623,
+      "minilm": 0.597
+    },
+    "recursive": {
+      "arctic_mrl_256": 0.595,
+      "bge_base": 0.589,
+      "bge_base_256": 0.592,
+      "bge_small": 0.59,
+      "minilm": 0.519
+    },
+    "semantic": {
+      "arctic_mrl_256": 0.612,
+      "bge_base": 0.635,
+      "bge_base_256": 0.626,
+      "bge_small": 0.589,
+      "minilm": 0.555
+    }
+  },
+  "reranker": {
+    "ndcg_gain": 0.095,
+    "hit1_gain": 0.072,
+    "latency_multiple": 26.9,
+    "latency_ms": 687.8
+  },
+  "hardest": [
+    {
+      "qid": "Q05",
+      "success": 0.03,
+      "type": "semantic",
+      "doc": "hdfc_optima_secure",
+      "question": "Is surgery for cataract subject to a waiting period?"
+    },
+    {
+      "qid": "Q39",
+      "success": 0.03,
+      "type": "semantic",
+      "doc": "star_assure",
+      "question": "Is there an upper limit on accumulated no-claim bonus?"
+    },
+    {
+      "qid": "Q37",
+      "success": 0.03,
+      "type": "semantic",
+      "doc": "star_assure",
+      "question": "How much extra time do I get to pay the renewal premium?"
+    },
+    {
+      "qid": "Q42",
+      "success": 0.23,
+      "type": "semantic",
+      "doc": "star_assure",
+      "question": "How many times can the sum insured be restored in a year?"
+    },
+    {
+      "qid": "Q30",
+      "success": 0.45,
+      "type": "semantic",
+      "doc": "star_assure",
+      "question": "How many days of treatment costs before admission does Star Assure reimburse?"
+    },
+    {
+      "qid": "Q10",
+      "success": 0.5,
+      "type": "semantic",
+      "doc": "hdfc_optima_secure",
+      "question": "When is plastic surgery actually payable under this policy?"
+    }
+  ],
+  "never_found": [],
+  "success_by_qtype": {
+    "exact-match": 0.909,
+    "multi-hop": 0.839,
+    "semantic": 0.697
+  },
+  "coverage_by_strategy": {
+    "fixed": 0.614,
+    "parent_child": 0.752,
+    "recursive": 0.65,
+    "semantic": 0.644
+  },
+  "hit1_by_mode": {
+    "dense": 0.519,
+    "hybrid_rerank": 0.602,
+    "hybrid_rrf": 0.53,
+    "sparse": 0.44
+  },
+  "chunking_time_s": {
+    "fixed": 0.0,
+    "recursive": 0.01,
+    "semantic": 0.05,
+    "parent_child": 0.01
+  }
+}

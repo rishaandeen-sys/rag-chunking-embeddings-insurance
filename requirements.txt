@@ -1,0 +1,13 @@
+torch>=2.2          # install CPU build: pip install torch --index-url https://download.pytorch.org/whl/cpu
+sentence-transformers>=3.0
+transformers>=4.40
+faiss-cpu>=1.8
+rank_bm25>=0.2.2
+pymupdf>=1.24
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.4
+matplotlib>=3.8
+streamlit>=1.35
+einops>=0.8         # required by nomic-embed-text-v1.5 (Matryoshka arm)
+requests>=2.31

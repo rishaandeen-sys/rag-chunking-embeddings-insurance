@@ -1,0 +1,18 @@
+# Presentation settings: hide developer chrome so the demo looks like a product.
+[client]
+toolbarMode = "minimal"
+showErrorDetails = false
+
+[browser]
+gatherUsageStats = false
+
+[server]
+runOnSave = false
+
+[theme]
+base = "dark"
+primaryColor = "#00A896"
+backgroundColor = "#101534"
+secondaryBackgroundColor = "#1B2A6B"
+textColor = "#E8ECF7"
+font = "sans serif"

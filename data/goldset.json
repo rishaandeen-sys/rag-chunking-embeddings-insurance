@@ -1,0 +1,555 @@
+[
+ {
+  "qid": "Q01",
+  "doc": "hdfc_optima_secure",
+  "type": "semantic",
+  "match": "any",
+  "question": "How long must I wait before a pre-existing disease is covered?",
+  "answer": "36 months of continuous coverage from inception of the first policy.",
+  "evidence": [
+   "expiry of 36 months"
+  ]
+ },
+ {
+  "qid": "Q02",
+  "doc": "hdfc_optima_secure",
+  "type": "exact-match",
+  "match": "any",
+  "question": "Which exclusion code applies to pre-existing diseases?",
+  "answer": "Code Excl01.",
+  "evidence": [
+   "Excl01"
+  ]
+ },
+ {
+  "qid": "Q03",
+  "doc": "hdfc_optima_secure",
+  "type": "semantic",
+  "match": "any",
+  "question": "What is the waiting period for listed specified diseases and procedures?",
+  "answer": "24 months of continuous coverage.",
+  "evidence": [
+   "expiry of 24 months of continuous coverage"
+  ]
+ },
+ {
+  "qid": "Q04",
+  "doc": "hdfc_optima_secure",
+  "type": "exact-match",
+  "match": "any",
+  "question": "What does exclusion code Excl02 cover?",
+  "answer": "The specified disease / procedure waiting period.",
+  "evidence": [
+   "Excl02"
+  ]
+ },
+ {
+  "qid": "Q05",
+  "doc": "hdfc_optima_secure",
+  "type": "semantic",
+  "match": "any",
+  "question": "Is surgery for cataract subject to a waiting period?",
+  "answer": "Yes, cataract and other disorders of the lens are in the specified-disease waiting list.",
+  "evidence": [
+   "Cataract and other disorders of lens"
+  ]
+ },
+ {
+  "qid": "Q06",
+  "doc": "hdfc_optima_secure",
+  "type": "semantic",
+  "match": "any",
+  "question": "Are illnesses treated in the first month after buying the policy payable?",
+  "answer": "No, expenses within 30 days of commencement are excluded except for accidents.",
+  "evidence": [
+   "within 30 days from the first Policy commencement"
+  ]
+ },
+ {
+  "qid": "Q07",
+  "doc": "hdfc_optima_secure",
+  "type": "semantic",
+  "match": "any",
+  "question": "Does the initial 30 day waiting period apply to an accident?",
+  "answer": "No, claims arising due to an accident are excepted.",
+  "evidence": [
+   "except claims arising due to an accident"
+  ]
+ },
+ {
+  "qid": "Q08",
+  "doc": "hdfc_optima_secure",
+  "type": "exact-match",
+  "match": "any",
+  "question": "Under Excl15, below what dioptre value is refractive error correction excluded?",
+  "answer": "Less than 7.5 dioptres.",
+  "evidence": [
+   "refractive error less than 7.5 dioptres"
+  ]
+ },
+ {
+  "qid": "Q09",
+  "doc": "hdfc_optima_secure",
+  "type": "semantic",
+  "match": "any",
+  "question": "Does the plan pay for gender reassignment treatment?",
+  "answer": "No, change-of-gender treatments are excluded under Excl07.",
+  "evidence": [
+   "Change-of-Gender treatments",
+   "to those of the opposite sex"
+  ]
+ },
+ {
+  "qid": "Q10",
+  "doc": "hdfc_optima_secure",
+  "type": "semantic",
+  "match": "any",
+  "question": "When is plastic surgery actually payable under this policy?",
+  "answer": "Only for reconstruction following an accident, burns or cancer, or where medically necessary.",
+  "evidence": [
+   "unless for reconstruction following an Accident"
+  ]
+ },
+ {
+  "qid": "Q11",
+  "doc": "hdfc_optima_secure",
+  "type": "multi-hop",
+  "match": "any",
+  "question": "At what point does the Secure Benefit become usable?",
+  "answer": "Only after the Base Sum Insured has been exhausted.",
+  "evidence": [
+   "applicable only after exhaustion of Base Sum Insured",
+   "exhaustion of Base Sum Insured"
+  ]
+ },
+ {
+  "qid": "Q12",
+  "doc": "hdfc_optima_secure",
+  "type": "exact-match",
+  "match": "any",
+  "question": "What percentage of the base sum insured is added as Plus Benefit on renewal?",
+  "answer": "50% of the Base Sum Insured.",
+  "evidence": [
+   "50% of the Base Sum"
+  ]
+ },
+ {
+  "qid": "Q13",
+  "doc": "hdfc_optima_secure",
+  "type": "semantic",
+  "match": "any",
+  "question": "If I do not use the Secure Benefit this year, does it roll over?",
+  "answer": "No, any unutilised amount is not carried forward.",
+  "evidence": [
+   "will not be carried\nforward to the subsequent Policy Year",
+   "not be carried forward to the subsequent Policy Year"
+  ]
+ },
+ {
+  "qid": "Q14",
+  "doc": "hdfc_optima_secure",
+  "type": "semantic",
+  "match": "any",
+  "question": "How far back before admission are medical expenses reimbursed?",
+  "answer": "Up to 60 days prior to hospitalisation.",
+  "evidence": [
+   "incurred upto 60 days"
+  ]
+ },
+ {
+  "qid": "Q15",
+  "doc": "hdfc_optima_secure",
+  "type": "semantic",
+  "match": "any",
+  "question": "For how long after leaving hospital are expenses still covered?",
+  "answer": "Up to 180 days after discharge.",
+  "evidence": [
+   "incurred upto 180 days"
+  ]
+ },
+ {
+  "qid": "Q16",
+  "doc": "hdfc_optima_secure",
+  "type": "semantic",
+  "match": "any",
+  "question": "What does Aggregate Deductible mean?",
+  "answer": "A cost-sharing amount the insured bears once during each policy year before the company pays.",
+  "evidence": [
+   "Aggregate Deductible refers to a cost-sharing"
+  ]
+ },
+ {
+  "qid": "Q17",
+  "doc": "hdfc_optima_secure",
+  "type": "exact-match",
+  "match": "any",
+  "question": "Which benefits drop away if an Aggregate Deductible of INR 10 Lakhs is selected?",
+  "answer": "Preventive health check-up, Secure Benefit, Cumulative Bonus / Plus Benefit and Automatic Restore.",
+  "evidence": [
+   "Aggregate Deductible of INR 10 Lakhs"
+  ]
+ },
+ {
+  "qid": "Q18",
+  "doc": "hdfc_optima_secure",
+  "type": "exact-match",
+  "match": "any",
+  "question": "Within how many days does a relapse count as the same illness?",
+  "answer": "45 days from the date of last consultation.",
+  "evidence": [
+   "relapse within 45 days"
+  ]
+ },
+ {
+  "qid": "Q19",
+  "doc": "hdfc_optima_secure",
+  "type": "semantic",
+  "match": "any",
+  "question": "How does the policy define an accident?",
+  "answer": "A sudden, unforeseen and involuntary event caused by external, visible and violent means.",
+  "evidence": [
+   "involuntary event caused by external, visible and"
+  ]
+ },
+ {
+  "qid": "Q20",
+  "doc": "hdfc_optima_secure",
+  "type": "semantic",
+  "match": "any",
+  "question": "What is meant by Room Rent?",
+  "answer": "The amount charged by a hospital towards room and boarding.",
+  "evidence": [
+   "Room Rent means the amount charged by a"
+  ]
+ },
+ {
+  "qid": "Q21",
+  "doc": "hdfc_optima_secure",
+  "type": "semantic",
+  "match": "any",
+  "question": "What is a co-payment?",
+  "answer": "A cost sharing requirement under which the insured bears a percentage of the admissible claim.",
+  "evidence": [
+   "Co-Payment means a cost sharing requirement"
+  ]
+ },
+ {
+  "qid": "Q22",
+  "doc": "hdfc_optima_secure",
+  "type": "semantic",
+  "match": "any",
+  "question": "What counts as day care treatment?",
+  "answer": "Treatment under general or local anaesthesia in a hospital or day care centre in less than 24 hours.",
+  "evidence": [
+   "day care centre in less than 24"
+  ]
+ },
+ {
+  "qid": "Q23",
+  "doc": "hdfc_optima_secure",
+  "type": "exact-match",
+  "match": "any",
+  "question": "What does exclusion Excl16 relate to?",
+  "answer": "Unproven or experimental treatments.",
+  "evidence": [
+   "Excl16"
+  ]
+ },
+ {
+  "qid": "Q24",
+  "doc": "hdfc_optima_secure",
+  "type": "exact-match",
+  "match": "any",
+  "question": "Which code excludes obesity and weight control surgery?",
+  "answer": "Code Excl06.",
+  "evidence": [
+   "Excl06"
+  ]
+ },
+ {
+  "qid": "Q25",
+  "doc": "hdfc_optima_secure",
+  "type": "semantic",
+  "match": "any",
+  "question": "Will the insurer pay if I am injured while committing a crime?",
+  "answer": "No, breach of law with criminal intent is excluded under Excl10.",
+  "evidence": [
+   "breach of law with criminal intent"
+  ]
+ },
+ {
+  "qid": "Q26",
+  "doc": "hdfc_optima_secure",
+  "type": "semantic",
+  "match": "any",
+  "question": "Am I covered if I am hurt playing a dangerous sport professionally?",
+  "answer": "No, professional participation in hazardous or adventure sports is excluded under Excl09.",
+  "evidence": [
+   "participation as a professional in Hazardous"
+  ]
+ },
+ {
+  "qid": "Q27",
+  "doc": "hdfc_optima_secure",
+  "type": "semantic",
+  "match": "any",
+  "question": "Can leftover restored sum insured be used next year?",
+  "answer": "No, unutilised restored sum insured is not carried forward.",
+  "evidence": [
+   "restored Sum Insured if not utilized shall not be"
+  ]
+ },
+ {
+  "qid": "Q28",
+  "doc": "hdfc_optima_secure",
+  "type": "semantic",
+  "match": "any",
+  "question": "What is the definition of an AYUSH hospital?",
+  "answer": "A healthcare facility where AYUSH treatments are carried out by registered AYUSH practitioners.",
+  "evidence": [
+   "AYUSH Hospital is a healthcare facility wherein"
+  ]
+ },
+ {
+  "qid": "Q29",
+  "doc": "star_assure",
+  "type": "exact-match",
+  "match": "any",
+  "question": "What is the air ambulance limit as a percentage of sum insured?",
+  "answer": "Up to 10% of sum insured per policy year.",
+  "evidence": [
+   "air ambulance service up to 10% of sum insured"
+  ]
+ },
+ {
+  "qid": "Q30",
+  "doc": "star_assure",
+  "type": "semantic",
+  "match": "any",
+  "question": "How many days of treatment costs before admission does Star Assure reimburse?",
+  "answer": "Up to 60 days prior to hospitalisation.",
+  "evidence": [
+   "up to 60 days prior to hospitalization"
+  ]
+ },
+ {
+  "qid": "Q31",
+  "doc": "star_assure",
+  "type": "semantic",
+  "match": "any",
+  "question": "How long after discharge does Star Assure keep paying medical expenses?",
+  "answer": "Up to 180 days after discharge.",
+  "evidence": [
+   "up to 180 days after discharge from the hospital"
+  ]
+ },
+ {
+  "qid": "Q32",
+  "doc": "star_assure",
+  "type": "exact-match",
+  "match": "any",
+  "question": "What is the maximum payable for repatriation of mortal remains?",
+  "answer": "Rs.15,000 in a policy year.",
+  "evidence": [
+   "Rs.15,000"
+  ]
+ },
+ {
+  "qid": "Q33",
+  "doc": "star_assure",
+  "type": "exact-match",
+  "match": "any",
+  "question": "How much compassionate travel expense is reimbursed?",
+  "answer": "Up to Rs.10,000 for one immediate family member.",
+  "evidence": [
+   "Rs.10,000"
+  ]
+ },
+ {
+  "qid": "Q34",
+  "doc": "star_assure",
+  "type": "exact-match",
+  "match": "any",
+  "question": "What daily amount is paid if the insured uses shared accommodation?",
+  "answer": "Rs.1,000 per day.",
+  "evidence": [
+   "Rs.1,000/- per day"
+  ]
+ },
+ {
+  "qid": "Q35",
+  "doc": "star_assure",
+  "type": "exact-match",
+  "match": "any",
+  "question": "What is the cap on home care treatment?",
+  "answer": "10% of sum insured subject to a maximum of Rs.5 lakhs per policy year.",
+  "evidence": [
+   "10% of the sum insured subject to maximum of Rs.5 lakhs"
+  ]
+ },
+ {
+  "qid": "Q36",
+  "doc": "star_assure",
+  "type": "exact-match",
+  "match": "any",
+  "question": "What co-payment applies to each and every claim?",
+  "answer": "10% of each and every claim amount.",
+  "evidence": [
+   "10% of each and every claim amount"
+  ]
+ },
+ {
+  "qid": "Q37",
+  "doc": "star_assure",
+  "type": "semantic",
+  "match": "any",
+  "question": "How much extra time do I get to pay the renewal premium?",
+  "answer": "A grace period of 30 days.",
+  "evidence": [
+   "Grace period of 30 days for renewing the policy"
+  ]
+ },
+ {
+  "qid": "Q38",
+  "doc": "star_assure",
+  "type": "exact-match",
+  "match": "any",
+  "question": "What cumulative bonus is granted for each claim free year?",
+  "answer": "25% of the sum insured per claim free year, capped at 100%.",
+  "evidence": [
+   "25% of the Sum Insured for each claim free year"
+  ]
+ },
+ {
+  "qid": "Q39",
+  "doc": "star_assure",
+  "type": "semantic",
+  "match": "any",
+  "question": "Is there an upper limit on accumulated no-claim bonus?",
+  "answer": "Yes, a maximum of 100% of sum insured.",
+  "evidence": [
+   "maximum upto 100% of Sum Insured"
+  ]
+ },
+ {
+  "qid": "Q40",
+  "doc": "star_assure",
+  "type": "semantic",
+  "match": "any",
+  "question": "Does Star Assure pay for ayurvedic inpatient treatment?",
+  "answer": "Yes, AYUSH inpatient treatment is payable up to the sum insured.",
+  "evidence": [
+   "AYUSH Hospital is payable up to the sum insured"
+  ]
+ },
+ {
+  "qid": "Q41",
+  "doc": "star_assure",
+  "type": "multi-hop",
+  "match": "any",
+  "question": "How long must one wait for in utero fetal surgery to become payable?",
+  "answer": "24 months from inception of the policy.",
+  "evidence": [
+   "waiting period of 24 months from the date of inception"
+  ]
+ },
+ {
+  "qid": "Q42",
+  "doc": "star_assure",
+  "type": "semantic",
+  "match": "any",
+  "question": "How many times can the sum insured be restored in a year?",
+  "answer": "An unlimited number of times, up to 100% each time.",
+  "evidence": [
+   "restoration of sum insured for unlimited number of"
+  ]
+ },
+ {
+  "qid": "Q43",
+  "doc": "star_assure",
+  "type": "exact-match",
+  "match": "any",
+  "question": "What is the limit on delivery and caesarean expenses?",
+  "answer": "Up to 10% of the sum insured.",
+  "evidence": [
+   "up-to 10% of the Sum Insured is payable"
+  ]
+ },
+ {
+  "qid": "Q44",
+  "doc": "star_assure",
+  "type": "exact-match",
+  "match": "any",
+  "question": "What is the cap on rehabilitation and pain management cover?",
+  "answer": "The sub-limit or 20% of sum insured, whichever is less, per policy year.",
+  "evidence": [
+   "maximum up to 20% of the sum insured whichever is less"
+  ]
+ },
+ {
+  "qid": "Q45",
+  "doc": "star_assure",
+  "type": "exact-match",
+  "match": "any",
+  "question": "Within how many days must errors in the policy details be reported?",
+  "answer": "Within 15 days from the date of receipt of the policy.",
+  "evidence": [
+   "within 15 days from the date of receipt of the policy"
+  ]
+ },
+ {
+  "qid": "Q46",
+  "doc": "star_assure",
+  "type": "exact-match",
+  "match": "any",
+  "question": "What is the sub-limit for chronic severe refractory asthma treatment?",
+  "answer": "10% of sum insured, not exceeding Rs.5 lakhs per policy period.",
+  "evidence": [
+   "payable up to 10% of sum insured not exceeding Rs.5 lakhs"
+  ]
+ },
+ {
+  "qid": "Q47",
+  "doc": "star_assure",
+  "type": "multi-hop",
+  "match": "any",
+  "question": "How recently must a condition have been diagnosed to count as pre-existing?",
+  "answer": "Diagnosed by a physician within 48 months prior to the effective date of the policy.",
+  "evidence": [
+   "within 48 months prior to the effective date"
+  ]
+ },
+ {
+  "qid": "Q48",
+  "doc": "star_assure",
+  "type": "semantic",
+  "match": "any",
+  "question": "Are the donor's hospitalisation costs paid in a transplant?",
+  "answer": "Yes, inpatient expenses for organ transplantation from donor to recipient are payable.",
+  "evidence": [
+   "organ transplantation from the Donor to the Recipient"
+  ]
+ },
+ {
+  "qid": "Q49",
+  "doc": "star_assure",
+  "type": "exact-match",
+  "match": "any",
+  "question": "What lump sum is paid for treatment at a valuable service provider network hospital?",
+  "answer": "1% of sum insured, maximum Rs.5,000 per policy period.",
+  "evidence": [
+   "1% of Sum Insured subject to a maximum of Rs.5,000"
+  ]
+ },
+ {
+  "qid": "Q50",
+  "doc": "star_assure",
+  "type": "semantic",
+  "match": "any",
+  "question": "Can I get a second doctor's view on my diagnosis?",
+  "answer": "Yes, a second medical opinion from a doctor in the company's network.",
+  "evidence": [
+   "Second Medical Opinion from a Doctor"
+  ]
+ }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "question": "How long must I wait before a pre-existing disease is covered?",
+    "mode": "hybrid_rrf",
+    "latency_ms": 40236.3,
+    "evidence_found": true,
+    "hits": [
+      {
+        "rank": 1,
+        "score": 0.0323,
+        "relevant": true,
+        "doc": "star_assure",
+        "text": "1. Pre-Existing Diseases - Code Excl 01 A. Applicable for 3 year policy term: Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 30 months of continuous coverage after the date o"
+      },
+      {
+        "rank": 2,
+        "score": 0.0315,
+        "relevant": false,
+        "doc": "star_assure",
+        "text": "not been insured and no more than other hospitals or doctors in the same locality would have charged for the same medical treatment. Medical Practitioner: Medical Practitioner means a person who holds a valid registration from the Medical Council of any State "
+      },
+      {
+        "rank": 3,
+        "score": 0.0312,
+        "relevant": false,
+        "doc": "hdfc_optima_secure",
+        "text": "1.1. Non-Disclosure or Misrepresentation of Pre-Existing Disease The Company may, notwithstanding and without prejudice to its rights under the standard general terms and clauses above, also exercise any of the below listed options for the purpose of continuin"
+      }
+    ],
+    "evidence": [
+      "expiry of 36 months"
+    ]
+  },
+  {
+    "question": "What does exclusion code Excl02 cover?",
+    "mode": "dense",
+    "latency_ms": 60.8,
+    "evidence_found": true,
+    "hits": [
+      {
+        "rank": 1,
+        "score": 0.6844,
+        "relevant": false,
+        "doc": "hdfc_optima_secure",
+        "text": "2. Standard Exclusions a. Investigation & Evaluation: Code Excl04 i. Expenses related to any admission primarily for diagnostics and evaluation purposes only are excluded. ii. Any diagnostic expenses which are not related or not incidental to the current diagn"
+      },
+      {
+        "rank": 2,
+        "score": 0.6592,
+        "relevant": false,
+        "doc": "hdfc_optima_secure",
+        "text": "4) Uncontrolled type2 diabetes d. Change-of-Gender treatments: Code \u2013 Excl07: Expenses related to any treatment, including surgical management, to change characteristics of the body to those of the opposite sex. e. Cosmetic or plastic Surgery: Code \u2013 Excl08: E"
+      },
+      {
+        "rank": 3,
+        "score": 0.6407,
+        "relevant": false,
+        "doc": "star_assure",
+        "text": "1. Pre-Existing Diseases - Code Excl 01 A. Applicable for 3 year policy term: Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall be excluded until the expiry of 30 months of continuous coverage after the date o"
+      }
+    ],
+    "evidence": [
+      "Excl02"
+    ]
+  },
+  {
+    "question": "What does exclusion code Excl02 cover?",
+    "mode": "hybrid_rrf",
+    "latency_ms": 64.9,
+    "evidence_found": true,
+    "hits": [
+      {
+        "rank": 1,
+        "score": 0.031,
+        "relevant": true,
+        "doc": "hdfc_optima_secure",
+        "text": "1. Waiting Periods All the Waiting Periods and exclusions listed below shall be applicable individually for each Insured Person and claims shall be assessed accordingly. a. Pre-Existing Diseases \u2013 Code \u2013 Excl01 i. Expenses related to the treatment of a pre-exi"
+      },
+      {
+        "rank": 2,
+        "score": 0.0299,
+        "relevant": false,
+        "doc": "star_assure",
+        "text": "2. Intimation about the birth of the New Born should be given to the company and the coverage will be given to the New Born from the \ufb01rst day of its birth. 3. Exclusion no.1 (Code-Excl 01), Exclusion no.2 (Code-Excl 02), Exclusion no.3 (Code-Excl 03) and Exclu"
+      },
+      {
+        "rank": 3,
+        "score": 0.0296,
+        "relevant": false,
+        "doc": "star_assure",
+        "text": "ability being otherwise admitted) such difference shall independently of all other questions be referred to the decision of a sole arbitrator to be appointed in writing by the parties to the dispute/difference, or if they cannot agree upon a single arbitrator "
+      }
+    ],
+    "evidence": [
+      "Excl02"
+    ]
+  }
+]

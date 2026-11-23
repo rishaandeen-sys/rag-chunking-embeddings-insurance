@@ -1,0 +1,18 @@
+[
+  {
+    "doc_id": "hdfc_optima_secure",
+    "source_pdf": "hdfc_optima_secure.pdf",
+    "chars": 138095,
+    "words": 21477,
+    "sections_detected": 38,
+    "text_file": "corpus\\text\\hdfc_optima_secure.txt"
+  },
+  {
+    "doc_id": "star_assure",
+    "source_pdf": "star_assure.pdf",
+    "chars": 132240,
+    "words": 20946,
+    "sections_detected": 191,
+    "text_file": "corpus\\text\\star_assure.txt"
+  }
+]

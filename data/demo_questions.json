@@ -1,0 +1,155 @@
+[
+ {
+  "question": "How long must I wait before a pre-existing disease is covered?",
+  "evidence": [
+   "expiry of 36 months"
+  ],
+  "match": "any",
+  "type": "real-world"
+ },
+ {
+  "question": "What does exclusion code Excl02 cover?",
+  "evidence": [
+   "Excl02"
+  ],
+  "match": "any",
+  "type": "real-world"
+ },
+ {
+  "question": "What daily amount is paid for shared accommodation?",
+  "evidence": [
+   "Rs.1,000/- per day"
+  ],
+  "match": "any",
+  "type": "real-world"
+ },
+ {
+  "question": "My wife is expecting. Is maternity covered, and is there a waiting period?",
+  "evidence": [
+   "waiting period of 24 months from the date of first commencement",
+   "traceable to childbirth"
+  ],
+  "match": "any",
+  "type": "real-world"
+ },
+ {
+  "question": "Will the policy pay for IVF or fertility treatment?",
+  "evidence": [
+   "Excl17",
+   "Assisted Reproduction Treatment"
+  ],
+  "match": "any",
+  "type": "real-world"
+ },
+ {
+  "question": "Is my newborn baby covered from the day of birth?",
+  "evidence": [
+   "payable from Day 1 of its birth"
+  ],
+  "match": "any",
+  "type": "real-world"
+ },
+ {
+  "question": "Does the policy pay for cosmetic or plastic surgery?",
+  "evidence": [
+   "unless for reconstruction following an Accident",
+   "cosmetic surgery & plastic surgery"
+  ],
+  "match": "any",
+  "type": "real-world"
+ },
+ {
+  "question": "Will the policy pay for weight loss surgery?",
+  "evidence": [
+   "Obesity/Weight control",
+   "surgical treatment of obesity"
+  ],
+  "match": "any",
+  "type": "real-world"
+ },
+ {
+  "question": "Am I covered if I get injured doing adventure sports?",
+  "evidence": [
+   "Hazardous sports, war, terrorism",
+   "participation as a professional in Hazardous"
+  ],
+  "match": "any",
+  "type": "real-world"
+ },
+ {
+  "question": "Are injuries caused by alcohol or substance abuse covered?",
+  "evidence": [
+   "Substance abuse, self-inflicted injuries"
+  ],
+  "match": "any",
+  "type": "real-world"
+ },
+ {
+  "question": "Is dental treatment covered?",
+  "evidence": [
+   "Dental Treatment, necessitated due to disease or Injury",
+   "cosmetic dental surgeries"
+  ],
+  "match": "any",
+  "type": "real-world"
+ },
+ {
+  "question": "Is an ambulance covered if I am shifted from one hospital to another?",
+  "evidence": [
+   "from one hospital to another hospital"
+  ],
+  "match": "any",
+  "type": "real-world"
+ },
+ {
+  "question": "Does the policy cover air ambulance, and up to how much?",
+  "evidence": [
+   "air ambulance service up to 10% of sum insured",
+   "Emergency Air Ambulance"
+  ],
+  "match": "any",
+  "type": "real-world"
+ },
+ {
+  "question": "Will my claim be cut if I take a room more expensive than my limit?",
+  "evidence": [
+   "Proportionate deduction on Room Rent"
+  ],
+  "match": "any",
+  "type": "real-world"
+ },
+ {
+  "question": "Do I have to pay a share of every claim myself?",
+  "evidence": [
+   "10% of each and every claim amount"
+  ],
+  "match": "any",
+  "type": "real-world"
+ },
+ {
+  "question": "Do I get any bonus for not making a claim?",
+  "evidence": [
+   "25% of the Sum Insured for each claim free year",
+   "50% of the Base Sum"
+  ],
+  "match": "any",
+  "type": "real-world"
+ },
+ {
+  "question": "Can I get a second doctor's opinion on my diagnosis?",
+  "evidence": [
+   "Second Medical Opinion from a Doctor",
+   "E Opinion for Critical Illness"
+  ],
+  "match": "any",
+  "type": "real-world"
+ },
+ {
+  "question": "Will the policy pay for an organ transplant donor's expenses?",
+  "evidence": [
+   "organ transplantation from the Donor to the Recipient"
+  ],
+  "match": "any",
+  "type": "real-world"
+ }
+]
