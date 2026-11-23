@@ -186,7 +186,7 @@ children.push(new Paragraph({
     new TextRun({ text: "Abstract—", font: SERIF, size: SMALL, bold: true, italics: true }),
     new TextRun({
       font: SERIF, size: SMALL, italics: true, bold: true,
-      text: `Retrieval-augmented generation is bounded by what the retriever returns, yet the two decisions that determine retrieval quality—how a document is segmented and how those segments are embedded—are usually made by convention rather than measurement. This paper reports a controlled empirical study of those two factors over a deliberately narrow corpus: ${S.corpus.documents.length} Indian retail health-insurance policy wordings totalling ${corpusWords} words. We sweep ${byStrat.length} chunking strategies against ${byEmb.length} embedding configurations and ${modeOrder.length} retrieval modes, scoring all ${S.n_configs} resulting configurations on a hand-built gold set of ${S.goldset.n} questions whose answers are anchored to verbatim evidence spans rather than to chunk identifiers. Anchoring on spans is what makes strategies with different boundaries comparable on a single scale. Results show that ${nice(bestStrat[0])} chunking attains the highest mean nDCG@5 (${n(bestStrat[1]["ndcg@k"])}) against ${n(worstStrat[1]["ndcg@k"])} for ${nice(worstStrat[0])}; that retrieval mode dominates embedding choice, with cross-encoder re-ranking adding ${n(S.reranker ? S.reranker.ndcg_gain : 0)} nDCG over hybrid fusion at ${S.reranker ? S.reranker.latency_multiple : "n/a"}× the latency; and that truncating a non-Matryoshka encoder to 256 dimensions retains ${pct(S.mrl.naive_retention_pct)} of full-dimensional quality for ${pct(S.mrl.storage_saving_pct)} less storage. We publish the resulting decision matrix as the practical deliverable.`,
+      text: `Retrieval-augmented generation is bounded by what the retriever returns, yet the two decisions that determine retrieval quality—how a document is segmented and how those segments are embedded—are usually made by convention rather than measurement. This paper reports a controlled empirical study of those two factors over a deliberately narrow corpus: ${S.corpus.documents.length} Indian retail health-insurance policy wordings totalling ${corpusWords} words. We sweep ${byStrat.length} chunking strategies against ${byEmb.length} embedding configurations and ${modeOrder.length} retrieval modes, scoring all ${S.n_configs} resulting configurations on a gold set of ${S.goldset.n} questions whose answers are anchored to verbatim evidence spans rather than to chunk identifiers. Anchoring on spans is what makes strategies with different boundaries comparable on a single scale. Results show that ${nice(bestStrat[0])} chunking attains the highest mean nDCG@5 (${n(bestStrat[1]["ndcg@k"])}) against ${n(worstStrat[1]["ndcg@k"])} for ${nice(worstStrat[0])}; that retrieval mode dominates embedding choice, with cross-encoder re-ranking adding ${n(S.reranker ? S.reranker.ndcg_gain : 0)} nDCG over hybrid fusion at ${S.reranker ? S.reranker.latency_multiple : "n/a"}× the latency; and that truncating a non-Matryoshka encoder to 256 dimensions retains ${pct(S.mrl.naive_retention_pct)} of full-dimensional quality for ${pct(S.mrl.storage_saving_pct)} less storage. We publish the resulting decision matrix as the practical deliverable.`,
     }),
   ],
 }));
@@ -544,7 +544,12 @@ const titleBlock = [
   new Paragraph({
     alignment: AlignmentType.CENTER,
     spacing: { before: 160, after: 20 },
-    children: [new TextRun({ text: "Ralph · Sanshray · Kushal · Rishaan", font: SERIF, size: 22 })],
+    children: [new TextRun({ text: "Ralph Ethan D’Souza (PES2UG24AM131)  ·  Sanshray Sathyan (PES2UG24AM146)", font: SERIF, size: 22 })],
+  }),
+  new Paragraph({
+    alignment: AlignmentType.CENTER,
+    spacing: { after: 20 },
+    children: [new TextRun({ text: "Kushal Raju (PES2UG24AM139)  ·  Rishaan Deen (PES2UG24AM134)", font: SERIF, size: 22 })],
   }),
   new Paragraph({
     alignment: AlignmentType.CENTER,

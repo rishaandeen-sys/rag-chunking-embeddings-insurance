@@ -7,10 +7,10 @@ B.Tech CSE (AI & ML), Semester 5 · **Team 10**
 
 | Name | SRN |
 |---|---|
-| Ralph | _to be added_ |
-| Sanshray | _to be added_ |
-| Kushal | _to be added_ |
-| Rishaan | _to be added_ |
+| Ralph Ethan D'Souza | PES2UG24AM131 |
+| Sanshray Sathyan | PES2UG24AM146 |
+| Kushal Raju | PES2UG24AM139 |
+| Rishaan Deen | PES2UG24AM134 |
 
 ---
 
