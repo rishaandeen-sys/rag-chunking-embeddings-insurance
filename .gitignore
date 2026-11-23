@@ -22,3 +22,6 @@ PRESENTATION_SCRIPT.md
 # local tooling
 .claude/
 *.log
+
+# files prepared for upload to the course Drive
+submission/

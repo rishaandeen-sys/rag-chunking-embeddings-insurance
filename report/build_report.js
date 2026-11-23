@@ -11,7 +11,7 @@ const path = require("path");
 const {
   Document, Packer, Paragraph, TextRun, ImageRun, AlignmentType, HeadingLevel,
   Table, TableRow, TableCell, WidthType, ShadingType, BorderStyle, SectionType,
-  PageNumber, Footer, convertInchesToTwip,
+  PageNumber, Footer, convertInchesToTwip, ExternalHyperlink,
 } = require("docx");
 
 const ROOT = path.resolve(__dirname, "..");
@@ -399,6 +399,21 @@ children.push(body("This is the multimodal brittleness our Review 1 survey ident
 children.push(sectionHead("VII", "Implementation and Reproducibility"));
 children.push(body("The system is roughly 1,100 lines of Python with no service dependencies: PyMuPDF for extraction, sentence-transformers for the encoders, FAISS for the dense index, rank_bm25 for the sparse index, and Streamlit for the demonstration interface. Everything runs on CPU. The complete grid, including cross-encoder re-ranking over every configuration, completes in well under an hour on a consumer laptop.", { noIndent: true }));
 children.push(body("Three decisions make the benchmark cheap to repeat. Document vectors are cached on disk keyed by a hash of the model name and the exact text list, so re-running after a change to retrieval or scoring logic costs no embedding time at all; this is what made it practical to rerun the full grid twice after the two methodological corrections described in Sections V-C and VIII. Chunking is deterministic given the corpus. And because no metric calls a language model, successive runs reproduce the same scores exactly; only the measured latencies vary."));
+// The repository link is a real hyperlink: in the narrow column the URL wraps at a
+// hyphen, and a plain-text URL copied from the PDF would then break.
+const REPO_URL = "https://github.com/rishaandeen-sys/rag-chunking-embeddings-insurance";
+children.push(new Paragraph({
+  alignment: AlignmentType.LEFT,
+  spacing: { after: 60, line: 240 },
+  children: [
+    new TextRun({ text: "The code, data, results and this report are available at ", font: SERIF, size: BODY }),
+    new ExternalHyperlink({
+      link: REPO_URL,
+      children: [new TextRun({ text: REPO_URL, font: SERIF, size: BODY, color: "1155CC", underline: {} })],
+    }),
+    new TextRun({ text: ".", font: SERIF, size: BODY }),
+  ],
+}));
 children.push(body("Reproducing the study requires the two source PDFs, which are public documents distributed by the insurers; the repository stores them unmodified alongside the extracted text, so a reader can verify the extraction stage independently rather than taking the cleaned corpus on trust. Every gold evidence span is re-verified against the extracted text at the start of each run, and the harness aborts rather than silently scoring a question whose evidence it cannot locate."));
 
 // ---- VIII. Discussion

@@ -26,6 +26,9 @@ const FIG = path.join(ROOT, "figures");
 // deck. To include the backup slide (it becomes slide 12):  DEMO_BACKUP=1 node deck/build_deck.js
 const INCLUDE_BACKUP = process.env.DEMO_BACKUP === "1";
 
+// Public repository for this project (shown on the title and closing slides).
+const REPO_URL = "https://github.com/rishaandeen-sys/rag-chunking-embeddings-insurance";
+
 const THEME = {
   name: "RAG Insurance Review 3",
   headFontFace: "Cambria",
@@ -133,6 +136,8 @@ T(s, "Ralph  ·  Sanshray  ·  Kushal  ·  Rishaan", {
   x: M, y: 4.62, w: CW, h: 0.44, fontSize: 17, bold: true, color: MINT });
 T(s, "UE24AM343AB5  —  Prompt Engineering and Optimization for Generative AI", {
   x: M, y: H - 1.0, w: CW, h: 0.34, fontSize: 11.5, color: "7A86AE" });
+T(s, [{ text: "GitHub:  " + REPO_URL, options: { hyperlink: { url: REPO_URL, tooltip: "Open the project repository" }, color: MINT } }], {
+  x: M, y: H - 0.62, w: CW, h: 0.34, fontSize: 12 });
 s.addNotes("Review 3 final demo. Plan: 2 min on how we narrowed scope after Review 1 feedback, 4 min method, 5 min results, 4 min live demo, questions.");
 
 // =====================================================================
@@ -516,6 +521,8 @@ T(s, "Ralph  ·  Sanshray  ·  Kushal  ·  Rishaan     —     thank you, questi
   x: M, y: 4.86, w: CW, h: 0.42, fontSize: 15.5, bold: true, color: MINT });
 T(s, "Key references:  Sarthi et al., RAPTOR (ICLR 2024)  ·  Günther et al., Late Chunking (2024)  ·  Es et al., RAGAS (EACL 2024)  ·  Kusupati et al., Matryoshka Representation Learning (NeurIPS 2022)  ·  Cormack et al., Reciprocal Rank Fusion (SIGIR 2009)", {
   x: M, y: H - 1.1, w: CW, h: 0.6, fontSize: 9.5, color: "7A86AE" });
+T(s, [{ text: "Code, data and results:  " + REPO_URL, options: { hyperlink: { url: REPO_URL, tooltip: "Open the project repository" }, color: MINT } }], {
+  x: M, y: H - 0.5, w: CW, h: 0.32, fontSize: 11 });
 
 // ------------------------------------------------------------- write
 const OUT = path.join(ROOT, "deck", "RAG_Chunking_Embeddings_Review3.pptx");
